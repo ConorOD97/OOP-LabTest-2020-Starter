@@ -3,6 +3,7 @@ package ie.tudublin;
 import processing.data.TableRow;
 
 public class Task {
+    Gantt gt;
     private String task;
     private int start;
     private int end;
