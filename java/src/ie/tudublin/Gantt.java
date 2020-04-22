@@ -85,7 +85,20 @@ public class Gantt extends PApplet
 			text("Evaluation",tasksX,tasksY+tasksGap*6);
 			text("Release",tasksX,tasksY+tasksGap*7);
 
+			float length = 50;
+			float drop = 20;
+			float rectX = width *.25f;
+			//Display rectangles
+
 			
+			rect(rectX,tasksY, length, drop);
+			rect(rectX+length,tasksY+tasksGap, length, drop);
+			rect(rectX+length*2,tasksY+tasksGap*2, length, drop);
+			rect(rectX+length*3,tasksY+tasksGap*3, length, drop);
+			rect(rectX+length*4,tasksY+tasksGap*4, length, drop);
+			rect(rectX+length*5,tasksY+tasksGap*5, length, drop);
+			rect(rectX+length*6,tasksY+tasksGap*6, length, drop);
+			rect(rectX+length*7,tasksY+tasksGap*7, length, drop);
 			
 	}
 	
